@@ -1,6 +1,8 @@
 #  WSButton
 使用样例：
+
 1.图片在下
+
     WSButton *button1 = [WSButton buttonWithType:UIButtonTypeCustom];
     button1.backgroundColor = [UIColor yellowColor];
     [button1 setButtonLayoutType:WSButtonLayoutImageBottom];
@@ -12,6 +14,7 @@
     [self.view addSubview:button1];
 
 2.图片在上
+
     WSButton *button2 = [WSButton buttonWithType:UIButtonTypeCustom];
     [button2 setButtonLayoutType:WSButtonLayoutImageTop];
     [button2 setImageAndTitleSpace:10];
@@ -24,6 +27,7 @@
     [self.view addSubview:button2];
 
 3.图片在右
+
     WSButton *button3 = [WSButton buttonWithType:UIButtonTypeCustom];
     [button3 setButtonLayoutType:WSButtonLayoutImageRight];
     button3.backgroundColor = [UIColor blueColor];
@@ -35,6 +39,7 @@
     [self.view addSubview:button3];
 
 4.图片在左
+
     WSButton *button4 = [WSButton buttonWithType:UIButtonTypeCustom];
     [button4 setButtonLayoutType:WSButtonLayoutNormal];
     [button4 setImageAndTitleSpace:8];
