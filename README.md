@@ -17,7 +17,7 @@
 
     WSButton *button2 = [WSButton buttonWithType:UIButtonTypeCustom];
     [button2 setButtonLayoutType:WSButtonLayoutImageTop];
-    [button2 setImageAndTitleSpace:10];
+    [button2 setImageAndTitleSpace:10];//调整图片和title之前的间距
     button2.backgroundColor = [UIColor blueColor];
     button2.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:14];
     button2.frame = CGRectMake(20, 200, 100, 60);
@@ -42,7 +42,7 @@
 
     WSButton *button4 = [WSButton buttonWithType:UIButtonTypeCustom];
     [button4 setButtonLayoutType:WSButtonLayoutNormal];
-    [button4 setImageAndTitleSpace:8];
+    [button4 setImageAndTitleSpace:8];//调整图片和title之前的间距
     button4.backgroundColor = [UIColor blueColor];
     button4.frame = CGRectMake(20, 400, 100, 60);
     button4.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:18];
